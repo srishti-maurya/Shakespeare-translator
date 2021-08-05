@@ -1,0 +1,84 @@
+/* STYLE SHEET */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&family=Style+Script&family=WindSong:wght@500&display=swap');
+
+:root{
+    --primary-color: #171717;
+    --secondary-color: #444444;
+    --contrast-color: #DA0037;
+    --simple-color: #EDEDED;
+}
+
+
+body {
+    background-color: var(--simple-color);
+    text-align: center;
+  
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: var(--primary-color);
+  font-family: 'Pacifico', cursive;
+
+}
+h3{
+    color: var(--contrast-color);
+    text-align: center;
+    font-family: 'Style Script', cursive;
+}
+
+
+textarea {
+  width: 90%;
+  min-height: 20vh;
+  margin: 1rem 0rem;
+background-color: white;
+  padding: 1rem;
+  border: 2px solid var(--secondary-color);
+  font-family: 'Satisfy', cursive;
+}
+
+
+/* BUTTON */
+button {
+background-color:var(--simple-color) ;
+color: var(--contrast-color);
+border: 1px solid var(--primary-color);
+padding: 0.5rem 1rem;
+font-weight: bold;
+font-family: 'WindSong', cursive;
+
+    }
+
+button:hover{
+    background-color: var(--secondary-color);
+    color: whitesmoke;
+   
+}
+
+#translate-output {
+  width: 92%;
+  min-height: 20vh;
+  margin: 1rem 1.5rem;
+  background-color: white;
+  padding: 0.5rem;
+  border: 2px solid var(--primary-color);
+  color: var(--contrast-color);
+  font-family: 'Satisfy', cursive;
+}
+/* CLASSES */
+.translated-text-info {
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  color: var(--secondary-color);
+  font-family: 'Style Script', cursive;
+}
+/* FOOTER */
+footer{
+    text-align: center;
+    font-family: 'WindSong', cursive;
+}
+
